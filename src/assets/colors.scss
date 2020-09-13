@@ -10,6 +10,9 @@ $grape: #ab6dd0;
 $lime: #5ae26d;
 $pineapple: #ffa91e;
 $strawberry: #e94443;
+$bubble-gum: #d475ab;
+$mint: #b4f4a0;
+$rose: #f8e0c7;
 
 
 .basic {
@@ -93,5 +96,11 @@ $strawberry: #e94443;
     background-color: $strawberry;
     &.linear {
         background-image: linear-gradient(45deg, $strawberry, transparent);
+    }
+}
+
+.macaroon {
+    &.linear {
+        background: linear-gradient(45deg, $bubble-gum 20%, $mint 50%, $rose 80%);
     }
 }

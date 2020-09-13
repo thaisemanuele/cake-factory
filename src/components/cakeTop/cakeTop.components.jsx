@@ -13,9 +13,9 @@ import './cake-top.styles.scss';
 
 const CakeTop = ({topping}) => {
     const isChocolate = topping === 'chocolate' ? <Chocolate /> : null;
-    const isCherries = topping === 'cherries' ? <Cherries /> : null;
+    const isCherries = topping === 'cherry' ? <Cherries /> : null;
     const isGrape = topping === 'grape' ? <Grape /> : null;
-    const isLemon = topping === 'lemon' ? <Lemon /> : null;
+    const isLemon = topping === 'lime' ? <Lemon /> : null;
     const isMacaroon = topping === 'macaroon' ? <Macaroon /> : null;
     const isPineapple = topping === 'pineapple' ? <Pineapple /> : null;
     const isStrawberry = topping === 'strawberry' ? <Strawberry /> : null;

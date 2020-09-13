@@ -67,14 +67,13 @@ const CakeControllers = ({addAction, subtractAction, addFlavour, addFilling, add
             </CakeControllerPanel>
             <CakeControllerPanel value={value} index={2}>
                 <div className="toppings-container">
-                    <button className="topping-button" onClick={()=> addTopping('cherries')}>Cherry</button>
-                    <button className="topping-button" onClick={()=> addTopping('chocolate')}>Chocolate</button>
-                    <button className="topping-button" onClick={()=> addTopping('grape')}>Grape</button>
-                    <button className="topping-button" onClick={()=> addTopping('lemon')}>Lime</button>
-                    <button className="topping-button" onClick={()=> addTopping('macaroon')}>Macaroon</button>
-                    <button className="topping-button" onClick={()=> addTopping('pineapple')}>Pineapple</button>
-                    <button className="topping-button" onClick={()=> addTopping('strawberry')}>Strawberry</button>
-                    <hr/>
+                    <SelectButton action={addTopping} content="cherry">Cherry</SelectButton>
+                    <SelectButton action={addTopping} content="chocolate">Chocolate</SelectButton>
+                    <SelectButton action={addTopping} content="grape">Grape</SelectButton>
+                    <SelectButton action={addTopping} content="lime">Lime</SelectButton>
+                    <SelectButton action={addTopping} content="macaroon">Macaroon</SelectButton>
+                    <SelectButton action={addTopping} content="pineapple">Pineapple</SelectButton>
+                    <SelectButton action={addTopping} content="strawberry">Strawberry</SelectButton>
                 </div>
             </CakeControllerPanel>
         </Fragment>

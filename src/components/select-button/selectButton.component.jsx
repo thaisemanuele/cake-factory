@@ -7,7 +7,7 @@ const SelectButton = ({children, action, content}) => {
         <div 
             className="select-button" 
             onClick={()=> action(content)}>
-            <div className={`select-box ${content}`}/>
+            <div className={`select-box ${content} linear`}/>
             <p className="contentName">{children}</p>
         </div>
     );
