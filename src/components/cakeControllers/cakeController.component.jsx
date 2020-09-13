@@ -7,6 +7,9 @@ import RemoveIcon from '@material-ui/icons/Remove';
 
 import CakeControllerPanel from '../cakeControlerPanel/cakeControllerPanel.component';
 import FabActionButton from '../fabActionButton/fabActionButton.component';
+import SelectButton from '../select-button/selectButton.component';
+
+import './cake-controller.styles.scss';
 
 const CakeControllers = ({addAction, subtractAction, addFlavour, addFilling, addTopping, addDisabled, removeDisabled}) => {
     
@@ -44,13 +47,12 @@ const CakeControllers = ({addAction, subtractAction, addFlavour, addFilling, add
                 </FabActionButton>
             
                 <div className="flavours-container">
-                    <button className="flavour-button" onClick={()=> addFlavour('basic')}>Basic</button>
-                    <button className="flavour-button" onClick={()=> addFlavour('chocolate-dark')}>Dark Chocolate</button>
-                    <button className="flavour-button" onClick={()=> addFlavour('chocolate-brown')}>Brown Chocolate</button>
-                    <button className="flavour-button" onClick={()=> addFlavour('chocolate-white')}>White Chocolate</button>
-                    <button className="flavour-button" onClick={()=> addFlavour('pineapple')}>Pineapple</button>
-                    <button className="flavour-button" onClick={()=> addFlavour('grape')}>Grape</button>
-                    <hr/>
+                    <SelectButton action={addFlavour} content="basic">Basic</SelectButton>
+                    <SelectButton action={addFlavour} content="chocolate-dark">Dark Chocolate</SelectButton>
+                    <SelectButton action={addFlavour} content="chocolate-brown">Brown Chocolate</SelectButton>
+                    <SelectButton action={addFlavour} content="chocolate-white">White Chocolate</SelectButton>
+                    <SelectButton action={addFlavour} content="pineapple">Pineapple</SelectButton>
+                    <SelectButton action={addFlavour} content="grape">Grape</SelectButton>
                 </div>
             </CakeControllerPanel>
             <CakeControllerPanel value={value} index={1}>
