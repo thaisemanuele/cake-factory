@@ -1,4 +1,6 @@
-.flavours-container {
+.flavours-container , 
+.fillings-container,
+.toppings-container {
     display: flex;
     overflow: scroll;
     padding: 20px 0;

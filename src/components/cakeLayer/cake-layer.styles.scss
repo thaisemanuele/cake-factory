@@ -1,5 +1,3 @@
-@import '../../assets/colors.scss';
-
 .base-layer {
     width: 80%;
     height: 72px;
@@ -14,27 +12,4 @@
     &.top-layer {
         border-radius: 20% 20% 0% 0%;
     }
-}
-.basic {
-    background-color: $basic;
-}
-
-.chocolate-brown {
-    background-color: $chocolate-brown;
-}
-
-.chocolate-white {
-    background-color: $chocolate-white;
-}
-
-.chocolate-dark {
-    background-color: $chocolate-dark;
-}
-
-.pineapple {
-    background-color: $pineapple;
-}
-
-.grape {
-    background-color: $grape;
 }

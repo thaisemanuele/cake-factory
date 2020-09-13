@@ -14,6 +14,12 @@
         &.chocolate-dark {
             background-image: linear-gradient(45deg, $chocolate-dark, transparent);
         }
+        &.chocolate-brown {
+            background-image: linear-gradient(45deg, $chocolate-brown, transparent);
+        }
+        &.chocolate-white {
+            background-image: linear-gradient(45deg, $chocolate-white, transparent);
+        }
     }
 
 }

@@ -51,19 +51,18 @@ const CakeControllers = ({addAction, subtractAction, addFlavour, addFilling, add
                     <SelectButton action={addFlavour} content="chocolate-dark">Dark Chocolate</SelectButton>
                     <SelectButton action={addFlavour} content="chocolate-brown">Brown Chocolate</SelectButton>
                     <SelectButton action={addFlavour} content="chocolate-white">White Chocolate</SelectButton>
-                    <SelectButton action={addFlavour} content="pineapple">Pineapple</SelectButton>
-                    <SelectButton action={addFlavour} content="grape">Grape</SelectButton>
+                    <SelectButton action={addFlavour} content="layer-pineapple">Pineapple</SelectButton>
+                    <SelectButton action={addFlavour} content="layer-grape">Grape</SelectButton>
                 </div>
             </CakeControllerPanel>
             <CakeControllerPanel value={value} index={1}>
                 <div className="fillings-container">
-                    <button className="filling-button" onClick={()=> addFilling('cherry')}>Cherry</button>
-                    <button className="filling-button" onClick={()=> addFilling('chocolate')}>Chocolate</button>
-                    <button className="filling-button" onClick={()=> addFilling('grape')}>Grape</button>
-                    <button className="filling-button" onClick={()=> addFilling('lime')}>Lime</button>
-                    <button className="filling-button" onClick={()=> addFilling('pineapple')}>Pineapple</button>
-                    <button className="filling-button" onClick={()=> addFilling('strawberry')}>Strawberry</button>
-                    <hr/>
+                    <SelectButton action={addFilling} content="cherry">Cherry</SelectButton>
+                    <SelectButton action={addFilling} content="chocolate">Chocolate</SelectButton>
+                    <SelectButton action={addFilling} content="grape">Grape</SelectButton>
+                    <SelectButton action={addFilling} content="lime">Lime</SelectButton>
+                    <SelectButton action={addFilling} content="pineapple">Pineapple</SelectButton>
+                    <SelectButton action={addFilling} content="strawberry">Strawberry</SelectButton>
                 </div>
             </CakeControllerPanel>
             <CakeControllerPanel value={value} index={2}>

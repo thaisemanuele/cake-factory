@@ -1,32 +1,6 @@
-$cherry:#E91E63;
-$chocolate: #764e2b;
-$grape: #ab6dd0;
-$lime: #5ae26d;
-$pineapple: #ffa91e;
-$strawberry: #e94443;
-
 .filling {
     width: 75%;
     margin: 0 auto;
     height: 5px;
-    border-radius: 30%;
-    
-    &.cherry {
-        background-color: $cherry;
-    }
-    &.chocolate {
-        background-color: $chocolate;
-    }
-    &.grape {
-        background-color: $grape;
-    }
-    &.lime {
-        background-color: $lime;
-    }
-    &.pineapple {
-        background-color: $pineapple;
-    }
-    &.strawberry {
-        background-color: $strawberry;
-    }
+    border-radius: 30%;    
 }

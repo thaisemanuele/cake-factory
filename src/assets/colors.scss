@@ -2,5 +2,96 @@ $basic: #efdc98;
 $chocolate-brown: #623414;
 $chocolate-white: #ede6d6;
 $chocolate-dark: #3d251b;
-$pineapple: #e8ec78;
-$grape: #af9bb6;
+$layer-pineapple: #e8ec78;
+$layer-grape: #af9bb6;
+$cherry:#E91E63;
+$chocolate: #764e2b;
+$grape: #ab6dd0;
+$lime: #5ae26d;
+$pineapple: #ffa91e;
+$strawberry: #e94443;
+
+
+.basic {
+    background-color: $basic;
+    &.linear {
+        background-image: linear-gradient(45deg, $basic, transparent);
+    }
+}
+
+.chocolate-brown {
+    background-color: $chocolate-brown;
+    &.linear {
+        background-image: linear-gradient(45deg, $chocolate, $chocolate-brown, transparent);
+    }
+}
+
+.chocolate-white {
+    background-color: $chocolate-white;
+    &.linear {
+        background-image: linear-gradient(45deg, $chocolate-white, transparent);
+    }
+}
+
+.chocolate-dark {
+    background-color: $chocolate-dark;
+    &.linear {
+        background-image: linear-gradient(45deg, $chocolate, $chocolate-dark, transparent);
+    }
+}
+
+.layer-pineapple {
+    background-color: $layer-pineapple;
+    &.linear {
+        background-image: linear-gradient(45deg, $layer-pineapple, transparent);
+    }
+}
+
+.layer-grape {
+    background-color: $layer-grape;
+    &.linear {
+        background-image: linear-gradient(45deg, $layer-grape, transparent);
+    }
+}
+
+.cherry {
+    background-color: $cherry;
+    &.linear {
+        background-image: linear-gradient(45deg, $cherry, transparent);
+    }
+}
+
+.chocolate {
+    background-color: $chocolate;
+    &.linear {
+        background-image: linear-gradient(45deg, $chocolate, transparent);
+    }
+}
+
+.grape {
+    background-color: $grape;
+    &.linear {
+        background-image: linear-gradient(45deg, $grape, transparent);
+    }
+}
+
+.lime {
+    background-color: $lime;
+    &.linear {
+        background-image: linear-gradient(45deg, $lime, transparent);
+    }
+}
+
+.pineapple {
+    background-color: $pineapple;
+    &.linear {
+        background-image: linear-gradient(45deg, $pineapple, transparent);
+    }
+}
+
+.strawberry {
+    background-color: $strawberry;
+    &.linear {
+        background-image: linear-gradient(45deg, $strawberry, transparent);
+    }
+}
