@@ -1,0 +1,26 @@
+@import '../../assets/colors.scss';
+.select-button {
+    width: 20%;
+    padding: 0 20px;
+    .select-box {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 0 auto;
+
+        &.basic {
+            background-image: linear-gradient(45deg, $basic, transparent);
+        }
+        &.chocolate-dark {
+            background-image: linear-gradient(45deg, $chocolate-dark, transparent);
+        }
+        &.chocolate-brown {
+            background-image: linear-gradient(45deg, $chocolate-brown, transparent);
+        }
+        &.chocolate-white {
+            background-image: linear-gradient(45deg, $chocolate-white, transparent);
+        }
+    }
+
+}
+
