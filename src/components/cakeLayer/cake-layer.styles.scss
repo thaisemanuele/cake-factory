@@ -1,0 +1,45 @@
+$basic: #efdc98;
+$chocolate-brown: #623414;
+$chocolate-white: #ede6d6;
+$chocolate-dark: #3d251b;
+$pineapple: #e8ec78;
+$grape: #af9bb6;
+
+.base-layer {
+    width: 80%;
+    height: 72px;
+    margin: 0 auto;
+
+    &.bottom-layer {
+        border-radius: 5% 5% 10% 10%;
+    }
+    &.middle-layer {
+        border-radius: 5% 5% 0% 0%;
+    }
+    &.top-layer {
+        border-radius: 20% 20% 0% 0%;
+    }
+}
+.basic {
+    background-color: $basic;
+}
+
+.chocolate-brown {
+    background-color: $chocolate-brown;
+}
+
+.chocolate-white {
+    background-color: $chocolate-white;
+}
+
+.chocolate-dark {
+    background-color: $chocolate-dark;
+}
+
+.pineapple {
+    background-color: $pineapple;
+}
+
+.grape {
+    background-color: $grape;
+}
